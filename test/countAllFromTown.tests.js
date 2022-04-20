@@ -5,8 +5,13 @@ describe('this test (countAllFromTown)' , function(){
     
     });
 
-    it('should return zero if the is no registration from the specic town' , function(){
+    it('should return zero if the is no registration from the same specic town' , function(){
         assert.equal(0,countAllFromTown('CA 111 ,CY 2222',"CJ"));
+
+    
+    });
+    it('should return zero if the is no regNo given' , function(){
+        assert.equal(0,countAllFromTown(""));
 
     
     });

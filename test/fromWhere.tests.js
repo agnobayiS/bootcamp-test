@@ -10,6 +10,11 @@ describe('this test (fromWhere)' , function(){
 
     
     });
+    it('should return some other place if an empty string is given' , function(){
+        assert.equal('Some other place!',fromWhere(" "));
+
+    
+    });
     
 
 });

@@ -9,6 +9,10 @@ describe('this test shows...(isFromBellville)' , function(){
         assert.equal(false, isFromBellville('12333  CY'));
 
     });
+    it('should should return all registration from belliville' , function(){
+        assert.equal(true, isFromBellville('CY 12333'));
+
+    });
     
 
 });

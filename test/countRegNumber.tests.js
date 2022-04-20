@@ -10,5 +10,10 @@ describe('this test (countRegNumber)' , function(){
 
     //     assert.deepEqual([2,2],[2,2]);
     });
+    it('should return the number the number of regNo in the list' , function(){
+        assert.equal(3,countRegNumber("111 CY,233 CY,222 CY"));
+
+        // assert.deepEqual([2,2],[2,2]);
+    });
 
 });
