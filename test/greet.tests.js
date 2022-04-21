@@ -3,21 +3,21 @@ console.log(greet("sam"));
 
 describe('this test (greet)' , function(){
     it('should return hello and a name that is given' , function(){
-        assert.equal(2,2);
+        assert.equal('Hello, boo',greet('boo'));
 
         
     });
 
     it('should return hello even if you enter a number' , function(){
-        assert.equal(1,1);
+        assert.equal("Hello, sam",greet('sam'));
 
 
     });
-
-    it('should return hello without a name if no name is given' , function(){
-        assert.equal(,);
+    it('should return hello even if you enter a number' , function(){
+        assert.equal("Hello, ",greet(""));
 
 
     });
+   
 
 });
