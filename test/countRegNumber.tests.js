@@ -5,8 +5,8 @@ describe('this test (countRegNumber)' , function(){
         // assert.deepEqual([2,2],[2,2]);
     });
 
-    it('should return one when the is an empty string' , function(){
-        assert.equal(1,countRegNumber(""));
+    it('should return zero when the is an empty string' , function(){
+        assert.equal(0,countRegNumber(""));
 
     //     assert.deepEqual([2,2],[2,2]);
     });

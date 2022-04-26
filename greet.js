@@ -1,4 +1,5 @@
 
 function greet(name){
-return "Hello, " + name 
+    var checkName = typeof(name) === 'string' ? "Hello, " + name : "please enter valid name"
+    return checkName
 }

@@ -7,7 +7,7 @@ describe('this test (greet)' , function(){
     });
 
     it('should return hello even if you enter a number' , function(){
-        assert.equal("Hello, 2",greet(2));
+        assert.equal("please enter valid name",greet(2));
 
 
     });
